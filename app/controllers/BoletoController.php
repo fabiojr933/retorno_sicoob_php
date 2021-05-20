@@ -14,9 +14,10 @@ class BoletoController extends Controller
 
     }
     public function novo()
+    
     {
         $dados["view"]       = "Retorno/novo";
-        $this->load("template", $dados);
+        $this->load("template", $dados);  /**fabio*/
 
     }
     public function Retorno()
