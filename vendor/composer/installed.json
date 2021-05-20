@@ -1,0 +1,127 @@
+{
+    "packages": [
+        {
+            "name": "openboleto/openboleto",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openboleto/openboleto.git",
+                "reference": "40e95c1ae9ce45461abae896b63cd3efdb9514fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openboleto/openboleto/zipball/40e95c1ae9ce45461abae896b63cd3efdb9514fe",
+                "reference": "40e95c1ae9ce45461abae896b63cd3efdb9514fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "time": "2021-04-18T14:20:50+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "OpenBoleto\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "José Frederico",
+                    "email": "contato@livetechtecnologia.com.br"
+                },
+                {
+                    "name": "Daniel Garajau",
+                    "email": "daniel@garajau.com.br"
+                },
+                {
+                    "name": "Rogerio Muniz",
+                    "email": "rogerio@quilhasoft.com.br"
+                }
+            ],
+            "description": "Biblioteca para geração de boletos bancários.",
+            "homepage": "http://github.com/openboleto/openboleto",
+            "keywords": [
+                "boleto",
+                "boleto bancario"
+            ],
+            "support": {
+                "issues": "https://github.com/openboleto/openboleto/issues",
+                "source": "https://github.com/openboleto/openboleto/tree/master"
+            },
+            "install-path": "../openboleto/openboleto"
+        },
+        {
+            "name": "quilhasoft/opencnabphp",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QuilhaSoft/OpenCnabPHP.git",
+                "reference": "314296a34a3667329b700ee1d06e3f44af7f50c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QuilhaSoft/OpenCnabPHP/zipball/314296a34a3667329b700ee1d06e3f44af7f50c3",
+                "reference": "314296a34a3667329b700ee1d06e3f44af7f50c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "^6.5"
+            },
+            "time": "2021-05-18T12:23:08+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "CnabPHP\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rogerio Muniz de Castro",
+                    "email": "rogerio@quilhasoft.com.br"
+                }
+            ],
+            "description": "Biblioteca multibanco para geração e leitura de arquivos Cnab de remessa e retorno",
+            "keywords": [
+                "boleto",
+                "bradesco",
+                "caixa",
+                "cnab240",
+                "cnab400",
+                "cnabphp",
+                "itaú",
+                "remessa",
+                "retorno",
+                "santander",
+                "sicoob",
+                "uniprime"
+            ],
+            "support": {
+                "issues": "https://github.com/QuilhaSoft/OpenCnabPHP/issues",
+                "source": "https://github.com/QuilhaSoft/OpenCnabPHP/tree/master"
+            },
+            "install-path": "../quilhasoft/opencnabphp"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

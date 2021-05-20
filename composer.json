@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {
+
+        "openboleto/openboleto": "dev-master",
+        "quilhasoft/opencnabphp": "dev-master"
+
+
+
+    }
+}
